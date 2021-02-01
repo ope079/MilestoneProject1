@@ -7,8 +7,8 @@ from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
     
 # Initialize the Cosmos client
-endpoint = 'https://milestone.documents.azure.com:443/'
-key = 'K3ceqtLPD6EhUNhKo5CiGlIiDOzZPaqV37lFqps7408O8kIqddhXavClXctzM528oRTfPE0mZf2ZndTGiumbnQ=='
+endpoint = ''
+key = ''
 
 # <create_cosmos_client>
 client = CosmosClient(endpoint, key)
