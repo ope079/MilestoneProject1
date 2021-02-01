@@ -4,8 +4,10 @@ from azure.cosmos import exceptions, CosmosClient, PartitionKey
 
 
 
+    
 endpoint = ''
 key = ''
+
 
 
 client = CosmosClient(endpoint, key)
