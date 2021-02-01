@@ -1,4 +1,4 @@
-import logging
+
 import random
 import azure.functions as func
 
